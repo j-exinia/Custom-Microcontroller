@@ -31,9 +31,9 @@ Insert eventually
 
 * **Jorge Exinia** - *PCB design* - [j-exinia](https://github.com/j-exinia)
 
-## Built With
+### Built With
 
 * [KiCad](https://kicad-pcb.org/) - The PCB design software used
 
-## Errata
+### Errata
 
