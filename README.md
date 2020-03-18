@@ -2,7 +2,7 @@
 
 ## Block Diagram
 
-Insert eventually
+![](Images/Microcontroller.jpg)
 
 ## Peripherals 
 
