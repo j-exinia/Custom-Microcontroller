@@ -801,19 +801,19 @@ Wire Wire Line
 	4275 4225 4375 4225
 Wire Wire Line
 	4875 4225 4975 4225
-Text GLabel 5375 5750 2    50   Input ~ 0
+Text GLabel 5375 5750 2    50   Output ~ 0
 TX
 Text GLabel 6950 3525 0    50   Input ~ 0
 TX
 Text GLabel 5375 5850 2    50   Input ~ 0
 RX
-Text GLabel 6950 3425 0    50   Input ~ 0
+Text GLabel 6950 3425 0    50   Output ~ 0
 RX
-Text GLabel 5375 5950 2    50   Input ~ 0
+Text GLabel 5375 5950 2    50   Output ~ 0
 RTS
 Text GLabel 5375 6050 2    50   Input ~ 0
 CTS
-Text GLabel 6950 4125 0    50   Input ~ 0
+Text GLabel 6950 4125 0    50   Output ~ 0
 CTS
 Text GLabel 6950 3825 0    50   Input ~ 0
 RTS
