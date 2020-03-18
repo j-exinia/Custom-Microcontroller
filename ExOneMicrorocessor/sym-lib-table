@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name FT230XS)(type Legacy)(uri C:/Users/gtjme/OneDrive/Documents/SCR/Custom-Microcontroller/Libraries/ExOneLib/FT230XS.lib)(options "")(descr ""))
+  (lib (name STM32G041C8T6)(type Legacy)(uri C:/Users/gtjme/OneDrive/Documents/SCR/Custom-Microcontroller/Libraries/ExOneLib/STM32G041C8T6.lib)(options "")(descr ""))
+  (lib (name TLV73333PQDBVRQ1)(type Legacy)(uri C:/Users/gtjme/OneDrive/Documents/SCR/Custom-Microcontroller/Libraries/ExOneLib/TLV73333PQDBVRQ1.lib)(options "")(descr ""))
+  (lib (name UJ2-MBH-3-SMT)(type Legacy)(uri C:/Users/gtjme/OneDrive/Documents/SCR/Custom-Microcontroller/Libraries/ExOneLib/UJ2-MBH-3-SMT.lib)(options "")(descr ""))
+)

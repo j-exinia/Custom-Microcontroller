@@ -1,25 +1,26 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
-#SamacSys ECAD Model TLV73333PQDBVRQ1
-#/2022857/213147/2.46/5/3/Integrated Circuit
+#
+# TLV73333PQDBVRQ1
+#
 DEF TLV73333PQDBVRQ1 IC 0 30 Y Y 1 F N
-F0 "IC" 850 300 50 H V L CNN
-F1 "TLV73333PQDBVRQ1" 850 200 50 H V L CNN
-F2 "SOT95P280X145-5N" 850 100 50 H I L CNN
-F3 "http://www.ti.com/lit/gpn/TLV733P-Q1" 850 0 50 H I L CNN
-F4 "Automotive capacitor-free 300-mA LDO regulator with foldback current limit for portable devices" 850 -100 50 H I L CNN "Description"
-F5 "1.45" 850 -200 50 H I L CNN "Height"
-F6 "595-TLV73333PQDBVRQ1" 850 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV73333PQDBVRQ1" 850 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
-F9 "TLV73333PQDBVRQ1" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+F0 "IC" 200 150 50 H V L CNN
+F1 "TLV73333PQDBVRQ1" 350 150 50 H V L CNN
+F2 "SOT95P280X145-5N" 150 -1100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/TLV733P-Q1" 150 -1000 50 H I L CNN
+F4 "Automotive capacitor-free 300-mA LDO regulator with foldback current limit for portable devices" 150 -900 50 H I L CNN "Description"
+F5 "1.45" 150 -400 50 H I L CNN "Height"
+F6 "595-TLV73333PQDBVRQ1" 150 -500 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV73333PQDBVRQ1" 150 -600 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 150 -700 50 H I L CNN "Manufacturer_Name"
+F9 "TLV73333PQDBVRQ1" 150 -800 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 f
 X IN 1 0 0 200 R 50 50 0 0 U
-X GND 2 0 -100 200 R 50 50 0 0 U
+X GND 2 500 -500 200 U 50 50 0 0 U
 X EN 3 0 -200 200 R 50 50 0 0 U
 X NC 4 1000 0 200 L 50 50 0 0 N
 X OUT 5 1000 -100 200 L 50 50 0 0 U
-P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
 ENDDRAW
 ENDDEF
 #
