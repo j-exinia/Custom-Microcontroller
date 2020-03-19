@@ -92,10 +92,6 @@ F 3 "~" H 4175 1175 50  0001 C CNN
 	1    4175 1175
 	-1   0    0    1   
 $EndComp
-Text GLabel 8050 1575 1    50   Input ~ 0
-VDD
-Text GLabel 4850 1025 2    50   Input ~ 0
-VDD
 $Comp
 L power:GND #PWR?
 U 1 1 5E73E26A
@@ -120,8 +116,6 @@ F 3 "" H 4175 1325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4175 1025 4700 1025
-Wire Wire Line
-	4700 1025 4850 1025
 Connection ~ 4700 1025
 $Comp
 L power:GND #PWR?
@@ -170,11 +164,9 @@ Wire Wire Line
 Wire Wire Line
 	2325 925  2500 925 
 Wire Wire Line
-	7850 1750 8050 1750
+	7850 1750 7950 1750
 Wire Wire Line
 	8050 1750 8050 1925
-Wire Wire Line
-	8050 1750 8050 1575
 $Comp
 L Device:C C4
 U 1 1 5E763744
@@ -199,11 +191,7 @@ F 3 "~" H 5625 1175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5625 1025 6175 1025
-Wire Wire Line
-	5475 1025 5625 1025
 Connection ~ 5625 1025
-Text GLabel 5475 1025 0    50   Input ~ 0
-VREF+
 $Comp
 L STM32G041C8T6:STM32G041C8T6 IC1
 U 1 1 5E724848
@@ -223,8 +211,6 @@ F 9 "STM32G041C8T6" H 9200 4025 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 Wire Wire Line
 	7850 1750 7850 1925
-Text GLabel 7650 1925 1    50   Input ~ 0
-VREF+
 $Comp
 L power:GND #PWR?
 U 1 1 5E779990
@@ -250,8 +236,6 @@ $EndComp
 Wire Wire Line
 	6325 1025 6175 1025
 Connection ~ 6175 1025
-Text GLabel 6325 1025 2    50   Output ~ 0
-VDD
 Text GLabel 3525 5850 2    50   Input ~ 0
 VBus
 $Comp
@@ -388,7 +372,6 @@ Text GLabel 6950 2925 0    50   Input ~ 0
 OSC_IN
 Text GLabel 6950 3025 0    50   Output ~ 0
 OSC_OUT
-Connection ~ 8050 1750
 Wire Wire Line
 	1600 925  2325 925 
 Connection ~ 2325 925 
@@ -526,10 +509,6 @@ F 3 "" H 4275 7200 50  0001 C CNN
 	1    4275 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4425 5750 0    50   Output ~ 0
-3V3
-Text GLabel 4825 5350 1    50   Input ~ 0
-3V3
 Wire Wire Line
 	4275 6250 4425 6250
 Wire Wire Line
@@ -547,8 +526,6 @@ Wire Wire Line
 	3100 6200 3100 5950
 Wire Wire Line
 	1450 5850 2475 5850
-Text GLabel 5025 5350 1    50   Input ~ 0
-VBus
 Wire Wire Line
 	2475 6325 2475 5850
 Connection ~ 2475 5850
@@ -603,8 +580,6 @@ Wire Wire Line
 Connection ~ 3100 5850
 Wire Wire Line
 	3100 5850 3525 5850
-Text GLabel 3100 5700 1    50   Output ~ 0
-Vcc
 Wire Wire Line
 	1875 6675 1875 6825
 Wire Wire Line
@@ -638,20 +613,16 @@ Connection ~ 3100 5950
 Wire Wire Line
 	2200 6050 3450 6050
 Connection ~ 3450 6050
-Text GLabel 8175 1750 2    50   Input ~ 0
-3V3
-Wire Wire Line
-	8050 1750 8175 1750
 Wire Wire Line
 	1625 4100 1825 4100
 Wire Wire Line
 	1825 4100 2250 4100
 Connection ~ 1825 4100
 $Comp
-L Device:C C?
+L Device:C C15
 U 1 1 5E7F6799
 P 2250 4250
-F 0 "C?" H 2375 4300 50  0000 L CNN
+F 0 "C15" H 2375 4300 50  0000 L CNN
 F 1 "4.7 uF" H 2375 4225 50  0000 L CNN
 F 2 "" H 2288 4100 50  0001 C CNN
 F 3 "~" H 2250 4250 50  0001 C CNN
@@ -697,26 +668,14 @@ Wire Wire Line
 $Comp
 L Device:R R3
 U 1 1 5E82A971
-P 4150 2775
-F 0 "R3" H 4250 2850 50  0000 L CNN
-F 1 "1M" H 4250 2750 50  0000 L CNN
-F 2 "" V 4080 2775 50  0001 C CNN
-F 3 "~" H 4150 2775 50  0001 C CNN
-	1    4150 2775
-	1    0    0    -1  
+P 4125 2925
+F 0 "R3" V 4175 2750 50  0000 C CNN
+F 1 "1M" V 4175 3100 50  0000 C CNN
+F 2 "" V 4055 2925 50  0001 C CNN
+F 3 "~" H 4125 2925 50  0001 C CNN
+	1    4125 2925
+	0    1    1    0   
 $EndComp
-Connection ~ 3650 2625
-Connection ~ 3650 2925
-Wire Wire Line
-	3650 2925 4150 2925
-Wire Wire Line
-	3650 2625 4150 2625
-Connection ~ 4150 2625
-Connection ~ 4150 2925
-Wire Wire Line
-	4150 2625 4450 2625
-Wire Wire Line
-	4150 2925 4450 2925
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5E85B14A
@@ -873,8 +832,6 @@ Text GLabel 6950 3225 0    50   BiDi ~ 0
 PA0
 Text GLabel 6950 3325 0    50   BiDi ~ 0
 PA1
-Text GLabel 4200 6350 0    50   Input ~ 0
-3V3
 Text GLabel 9875 3700 0    50   BiDi ~ 0
 PA4
 Text GLabel 6950 3625 0    50   BiDi ~ 0
@@ -1029,26 +986,6 @@ Wire Notes Line
 	2850 1425 2850 1775
 Wire Notes Line
 	1275 1425 1275 1775
-Text Notes 4125 800  0    50   ~ 0
-Bypass capacitors for a stable 3.3 V into the IC
-Wire Notes Line
-	6000 800  4125 800 
-Wire Notes Line
-	4125 800  4125 725 
-Wire Notes Line
-	4125 725  6000 725 
-Wire Notes Line
-	6000 725  6000 800 
-Text Notes 1350 5100 0    50   ~ 0
-Reset switch for the IC
-Wire Notes Line
-	1350 5125 1350 5025
-Wire Notes Line
-	1350 5025 2250 5025
-Wire Notes Line
-	2250 5025 2250 5125
-Wire Notes Line
-	2250 5125 1350 5125
 Wire Notes Line
 	2400 7450 3950 7450
 Wire Notes Line
@@ -1083,4 +1020,123 @@ Text Notes 7075 6950 0    79   ~ 0
 This Microcontroller is going to single handly fight off COVID-19 
 Text Notes 7400 7500 0    79   ~ 0
 ExOne Microprocessor 
+Wire Wire Line
+	4700 1025 5625 1025
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E9FD0BE
+P 6325 1025
+F 0 "#PWR?" H 6325 875 50  0001 C CNN
+F 1 "+3V3" H 6350 1225 50  0000 C CNN
+F 2 "" H 6325 1025 50  0001 C CNN
+F 3 "" H 6325 1025 50  0001 C CNN
+	1    6325 1025
+	1    0    0    -1  
+$EndComp
+Text Notes 5675 775  0    50   ~ 0
+Near Pin 5
+Text Notes 4250 775  0    50   ~ 0
+Near pin 6
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EA01841
+P 7950 1550
+F 0 "#PWR?" H 7950 1400 50  0001 C CNN
+F 1 "+3V3" H 8075 1600 50  0000 C CNN
+F 2 "" H 7950 1550 50  0001 C CNN
+F 3 "" H 7950 1550 50  0001 C CNN
+	1    7950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5EA06EA9
+P 7750 1550
+F 0 "#PWR?" H 7750 1400 50  0001 C CNN
+F 1 "+3.3VA" H 7575 1600 50  0000 C CNN
+F 2 "" H 7750 1550 50  0001 C CNN
+F 3 "" H 7750 1550 50  0001 C CNN
+	1    7750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1925 7650 1750
+Wire Wire Line
+	7650 1750 7750 1750
+Connection ~ 7850 1750
+Wire Wire Line
+	7950 1550 7950 1750
+Connection ~ 7950 1750
+Wire Wire Line
+	7950 1750 8050 1750
+Wire Wire Line
+	7750 1550 7750 1750
+Connection ~ 7750 1750
+Wire Wire Line
+	7750 1750 7850 1750
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5EA20DB3
+P 4200 6350
+F 0 "#PWR?" H 4200 6200 50  0001 C CNN
+F 1 "+3.3VA" H 4025 6400 50  0000 C CNN
+F 2 "" H 4200 6350 50  0001 C CNN
+F 3 "" H 4200 6350 50  0001 C CNN
+	1    4200 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 5750 4325 5750
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5EA24F20
+P 4325 5750
+F 0 "#PWR?" H 4325 5600 50  0001 C CNN
+F 1 "+3.3VA" H 4150 5800 50  0000 C CNN
+F 2 "" H 4325 5750 50  0001 C CNN
+F 3 "" H 4325 5750 50  0001 C CNN
+	1    4325 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 2925 4450 2925
+Connection ~ 3650 2625
+Wire Wire Line
+	3650 2625 4450 2625
+Wire Wire Line
+	3975 2925 3650 2925
+Connection ~ 3650 2925
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5EA582A4
+P 4825 5350
+F 0 "#PWR?" H 4825 5200 50  0001 C CNN
+F 1 "+3.3VA" H 4650 5400 50  0000 C CNN
+F 2 "" H 4825 5350 50  0001 C CNN
+F 3 "" H 4825 5350 50  0001 C CNN
+	1    4825 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EA633B3
+P 3100 5700
+F 0 "#PWR?" H 3100 5550 50  0001 C CNN
+F 1 "+5V" H 3200 5775 50  0000 C CNN
+F 2 "" H 3100 5700 50  0001 C CNN
+F 3 "" H 3100 5700 50  0001 C CNN
+	1    3100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EA64F20
+P 5025 5350
+F 0 "#PWR?" H 5025 5200 50  0001 C CNN
+F 1 "+5V" H 5125 5425 50  0000 C CNN
+F 2 "" H 5025 5350 50  0001 C CNN
+F 3 "" H 5025 5350 50  0001 C CNN
+	1    5025 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

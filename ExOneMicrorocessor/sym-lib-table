@@ -4,4 +4,5 @@
   (lib (name TLV73333PQDBVRQ1)(type Legacy)(uri C:/Users/gtjme/OneDrive/Documents/SCR/Custom-Microcontroller/Libraries/ExOneLib/TLV73333PQDBVRQ1.lib)(options "")(descr ""))
   (lib (name UJ2-MBH-3-SMT)(type Legacy)(uri C:/Users/gtjme/OneDrive/Documents/SCR/Custom-Microcontroller/Libraries/ExOneLib/UJ2-MBH-3-SMT.lib)(options "")(descr ""))
   (lib (name Switch4Prong)(type Legacy)(uri C:/Users/gtjme/OneDrive/Documents/SCR/Custom-Microcontroller/Libraries/ExOneLib/Switch4Prong.lib)(options "")(descr ""))
+  (lib (name TPS77733DR)(type Legacy)(uri C:/Users/gtjme/OneDrive/Documents/SCR/Custom-Microcontroller/Libraries/ExOneLib/TPS77733DR.lib)(options "")(descr ""))
 )
