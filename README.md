@@ -22,7 +22,7 @@
 
 ### Voltage Regulator
 
-* [TLV733P-Q1](http://www.ti.com/lit/ds/symlink/tlv733p-q1.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.com%2F&distId=26)
+* [TPS77733DR](http://www.ti.com/lit/ds/symlink/tps777.pdf)
 
 
 ## Images
