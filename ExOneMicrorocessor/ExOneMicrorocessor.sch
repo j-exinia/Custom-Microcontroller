@@ -254,17 +254,6 @@ OSC_IN
 Text GLabel 6950 3025 0    50   Output ~ 0
 OSC_OUT
 $Comp
-L Switch4Prong:SW4Push SW1
-U 1 1 5E72DBED
-P 1125 3975
-F 0 "SW1" V 1050 3650 50  0000 L CNN
-F 1 "SW4Push" V 1150 3500 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1125 4175 50  0001 C CNN
-F 3 "~" H 1125 4175 50  0001 C CNN
-	1    1125 3975
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Small R1
 U 1 1 5E735FB6
 P 4100 6050
@@ -464,24 +453,17 @@ F 3 "" H 2125 3975 50  0001 C CNN
 	1    2125 3975
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1025 4275 1125 4275
-Connection ~ 1125 4275
-Wire Wire Line
-	1125 4275 1225 4275
 $Comp
 L power:GND #PWR0111
 U 1 1 5E7FECCA
-P 1125 4375
-F 0 "#PWR0111" H 1125 4125 50  0001 C CNN
-F 1 "GND" H 1125 4225 50  0000 C CNN
-F 2 "" H 1125 4375 50  0001 C CNN
-F 3 "" H 1125 4375 50  0001 C CNN
-	1    1125 4375
+P 1125 4075
+F 0 "#PWR0111" H 1125 3825 50  0001 C CNN
+F 1 "GND" H 1125 3925 50  0000 C CNN
+F 2 "" H 1125 4075 50  0001 C CNN
+F 3 "" H 1125 4075 50  0001 C CNN
+	1    1125 4075
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1125 4275 1125 4375
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5E85B14A
@@ -580,55 +562,11 @@ Text GLabel 6950 4125 0    50   Output ~ 0
 CTS
 Text GLabel 6950 3825 0    50   Input ~ 0
 RTS
-$Comp
-L Connector_Generic:Conn_01x03 J4
-U 1 1 5E8E29D2
-P 10075 3025
-F 0 "J4" H 10025 3225 50  0000 L CNN
-F 1 "01x03" H 9950 2825 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10075 3025 50  0001 C CNN
-F 3 "~" H 10075 3025 50  0001 C CNN
-	1    10075 3025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J5
-U 1 1 5E8E2FAE
-P 10075 4000
-F 0 "J5" H 10025 4400 50  0000 L CNN
-F 1 "01x08" H 9950 3500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 10075 4000 50  0001 C CNN
-F 3 "~" H 10075 4000 50  0001 C CNN
-	1    10075 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J6
-U 1 1 5E8E69B2
-P 11000 2875
-F 0 "J6" H 10950 3375 50  0000 L CNN
-F 1 "01x10" H 10875 2250 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 11000 2875 50  0001 C CNN
-F 3 "~" H 11000 2875 50  0001 C CNN
-	1    11000 2875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x12 J7
-U 1 1 5E8E732E
-P 11000 4325
-F 0 "J7" H 10950 4925 50  0000 L CNN
-F 1 "01x12" H 10875 3625 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 11000 4325 50  0001 C CNN
-F 3 "~" H 11000 4325 50  0001 C CNN
-	1    11000 4325
-	1    0    0    -1  
-$EndComp
-Text GLabel 9875 2925 0    50   BiDi ~ 0
+Text GLabel 9525 2925 0    50   BiDi ~ 0
 PC13
-Text GLabel 9875 3025 0    50   BiDi ~ 0
+Text GLabel 10550 2925 0    50   BiDi ~ 0
 PA0
-Text GLabel 9875 3125 0    50   BiDi ~ 0
+Text GLabel 10550 4525 0    50   BiDi ~ 0
 PA1
 Text GLabel 6950 2625 0    50   BiDi ~ 0
 PC13
@@ -636,125 +574,125 @@ Text GLabel 6950 3225 0    50   BiDi ~ 0
 PA0
 Text GLabel 6950 3325 0    50   BiDi ~ 0
 PA1
-Text GLabel 9875 3700 0    50   BiDi ~ 0
+Text GLabel 10550 3125 0    50   BiDi ~ 0
 PA4
 Text GLabel 6950 3625 0    50   BiDi ~ 0
 PA4
-Text GLabel 9875 3800 0    50   BiDi ~ 0
+Text GLabel 10550 3225 0    50   BiDi ~ 0
 PA5
 Text GLabel 6950 3725 0    50   BiDi ~ 0
 PA5
-Text GLabel 9875 3900 0    50   BiDi ~ 0
+Text GLabel 10550 3325 0    50   BiDi ~ 0
 PA7
 Text GLabel 6950 3925 0    50   BiDi ~ 0
 PA7
-Text GLabel 9875 4000 0    50   BiDi ~ 0
+Text GLabel 10550 3425 0    50   BiDi ~ 0
 PB0
 Text GLabel 6950 4025 0    50   BiDi ~ 0
 PB0
-Text GLabel 9875 4100 0    50   BiDi ~ 0
+Text GLabel 10550 3525 0    50   BiDi ~ 0
 PB2
 Text GLabel 6950 4225 0    50   BiDi ~ 0
 PB2
-Text GLabel 9875 4200 0    50   BiDi ~ 0
+Text GLabel 10550 3625 0    50   BiDi ~ 0
 PB10
 Text GLabel 6950 4325 0    50   BiDi ~ 0
 PB10
-Text GLabel 9875 4300 0    50   BiDi ~ 0
+Text GLabel 10550 3725 0    50   BiDi ~ 0
 PB11
 Text GLabel 6950 4425 0    50   BiDi ~ 0
 PB11
-Text GLabel 9875 4400 0    50   BiDi ~ 0
+Text GLabel 10550 3825 0    50   BiDi ~ 0
 PB12
 Text GLabel 6950 4525 0    50   BiDi ~ 0
 PB12
 Text GLabel 8700 2825 2    50   BiDi ~ 0
 PA12
-Text GLabel 10800 2475 0    50   BiDi ~ 0
+Text GLabel 9525 4225 0    50   BiDi ~ 0
 PA12
 Text GLabel 8700 2925 2    50   BiDi ~ 0
 PA11
-Text GLabel 10800 2575 0    50   BiDi ~ 0
+Text GLabel 9525 4325 0    50   BiDi ~ 0
 PA11
-Text GLabel 10800 2675 0    50   BiDi ~ 0
+Text GLabel 9525 4425 0    50   BiDi ~ 0
 PA10
 Text GLabel 8700 3025 2    50   BiDi ~ 0
 PA10
-Text GLabel 10800 2775 0    50   BiDi ~ 0
+Text GLabel 9525 4525 0    50   BiDi ~ 0
 PC7
 Text GLabel 8700 3125 2    50   BiDi ~ 0
 PC7
-Text GLabel 10800 2875 0    50   BiDi ~ 0
+Text GLabel 10550 4425 0    50   BiDi ~ 0
 PC6
 Text GLabel 8700 3225 2    50   BiDi ~ 0
 PC6
-Text GLabel 10800 2975 0    50   BiDi ~ 0
+Text GLabel 10550 4325 0    50   BiDi ~ 0
 PA9
 Text GLabel 8700 3325 2    50   BiDi ~ 0
 PA9
-Text GLabel 10800 3075 0    50   BiDi ~ 0
+Text GLabel 10550 4225 0    50   BiDi ~ 0
 PA8
 Text GLabel 8700 3425 2    50   BiDi ~ 0
 PA8
-Text GLabel 10800 3175 0    50   BiDi ~ 0
+Text GLabel 10550 4125 0    50   BiDi ~ 0
 PB15
 Text GLabel 8700 3525 2    50   BiDi ~ 0
 PB15
-Text GLabel 10800 3275 0    50   BiDi ~ 0
+Text GLabel 10550 4025 0    50   BiDi ~ 0
 PB14
 Text GLabel 8700 3625 2    50   BiDi ~ 0
 PB14
-Text GLabel 10800 3375 0    50   BiDi ~ 0
+Text GLabel 10550 3925 0    50   BiDi ~ 0
 PB13
 Text GLabel 8700 3725 2    50   BiDi ~ 0
 PB13
-Text GLabel 10800 3825 0    50   BiDi ~ 0
+Text GLabel 9525 3025 0    50   BiDi ~ 0
 PB9
-Text GLabel 10800 3925 0    50   BiDi ~ 0
+Text GLabel 9525 3125 0    50   BiDi ~ 0
 PB8
 Text GLabel 8700 3825 2    50   BiDi ~ 0
 PB9
 Text GLabel 8700 3925 2    50   BiDi ~ 0
 PB8
-Text GLabel 10800 4025 0    50   BiDi ~ 0
+Text GLabel 9525 3225 0    50   BiDi ~ 0
 PB7
 Text GLabel 8700 4025 2    50   BiDi ~ 0
 PB7
-Text GLabel 10800 4125 0    50   BiDi ~ 0
+Text GLabel 9525 3325 0    50   BiDi ~ 0
 PB6
 Text GLabel 8700 4125 2    50   BiDi ~ 0
 PB6
-Text GLabel 10800 4225 0    50   BiDi ~ 0
+Text GLabel 9525 3425 0    50   BiDi ~ 0
 PB5
 Text GLabel 8700 4225 2    50   BiDi ~ 0
 PB5
-Text GLabel 10800 4325 0    50   BiDi ~ 0
+Text GLabel 9525 3525 0    50   BiDi ~ 0
 PB4
 Text GLabel 8700 4325 2    50   BiDi ~ 0
 PB4
-Text GLabel 10800 4425 0    50   BiDi ~ 0
+Text GLabel 9525 3625 0    50   BiDi ~ 0
 PB3
 Text GLabel 8700 4425 2    50   BiDi ~ 0
 PB3
-Text GLabel 10800 4525 0    50   BiDi ~ 0
+Text GLabel 9525 3725 0    50   BiDi ~ 0
 PD3
 Text GLabel 8700 4525 2    50   BiDi ~ 0
 PD3
 Text GLabel 8700 4625 2    50   BiDi ~ 0
 PD2
-Text GLabel 10800 4625 0    50   BiDi ~ 0
+Text GLabel 9525 3825 0    50   BiDi ~ 0
 PD2
 Text GLabel 8700 4725 2    50   BiDi ~ 0
 PD1
-Text GLabel 10800 4725 0    50   BiDi ~ 0
+Text GLabel 9525 3925 0    50   BiDi ~ 0
 PD1
-Text GLabel 10800 4825 0    50   BiDi ~ 0
+Text GLabel 9525 4025 0    50   BiDi ~ 0
 PD0
 Text GLabel 8700 4825 2    50   BiDi ~ 0
 PD0
 Text GLabel 8700 4925 2    50   BiDi ~ 0
 PA15
-Text GLabel 10800 4925 0    50   BiDi ~ 0
+Text GLabel 9525 4125 0    50   BiDi ~ 0
 PA15
 Wire Notes Line
 	3850 4625 5450 4625
@@ -925,12 +863,8 @@ Wire Wire Line
 Wire Wire Line
 	4350 3225 4825 3225
 Wire Wire Line
-	1025 3675 1125 3675
-Wire Wire Line
 	1125 3675 1125 3600
 Connection ~ 1125 3675
-Wire Wire Line
-	1125 3675 1225 3675
 $Comp
 L Device:R_Small R5
 U 1 1 5EBB695B
@@ -945,17 +879,6 @@ $EndComp
 Wire Wire Line
 	1125 3400 1125 3300
 $Comp
-L power:+3.3VA #PWR0122
-U 1 1 5EBBC3C0
-P 1125 3300
-F 0 "#PWR0122" H 1125 3150 50  0001 C CNN
-F 1 "+3.3VA" H 950 3350 50  0000 C CNN
-F 2 "" H 1125 3300 50  0001 C CNN
-F 3 "" H 1125 3300 50  0001 C CNN
-	1    1125 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R6
 U 1 1 5EBCCA59
 P 1600 3675
@@ -966,9 +889,6 @@ F 3 "~" H 1600 3675 50  0001 C CNN
 	1    1600 3675
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1500 3675 1225 3675
-Connection ~ 1225 3675
 $Comp
 L Device:C C14
 U 1 1 5EBE508A
@@ -1234,9 +1154,9 @@ Wire Wire Line
 Wire Wire Line
 	4175 6350 4175 6850
 Text GLabel 4075 5450 0    50   Output ~ 0
-VCCIO
+3VLn
 Text GLabel 4075 6350 0    50   Input ~ 0
-VCCIO
+3VLn
 Wire Wire Line
 	4175 6350 4075 6350
 Connection ~ 4175 6350
@@ -1285,4 +1205,51 @@ Wire Wire Line
 Connection ~ 3150 6050
 Wire Wire Line
 	4075 5450 4225 5450
+$Comp
+L power:+3V3 #PWR0116
+U 1 1 5E7DB2B1
+P 1125 3300
+F 0 "#PWR0116" H 1125 3150 50  0001 C CNN
+F 1 "+3V3" H 1150 3525 50  0000 C CNN
+F 2 "" H 1125 3300 50  0001 C CNN
+F 3 "" H 1125 3300 50  0001 C CNN
+	1    1125 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J4
+U 1 1 5E7F012C
+P 9725 3725
+F 0 "J4" H 9675 4650 50  0000 L CNN
+F 1 "Conn_01x17" H 9325 2775 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 9725 3725 50  0001 C CNN
+F 3 "~" H 9725 3725 50  0001 C CNN
+	1    9725 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J5
+U 1 1 5E7F19A5
+P 10750 3725
+F 0 "J5" H 10700 4650 50  0000 L CNN
+F 1 "Conn_01x17" H 10350 2775 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 10750 3725 50  0001 C CNN
+F 3 "~" H 10750 3725 50  0001 C CNN
+	1    10750 3725
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10550 3025
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5E90B04D
+P 1125 3875
+F 0 "SW1" V 1050 4050 50  0000 L CNN
+F 1 "SW_Push" V 1150 4050 50  0000 L CNN
+F 2 "ExOneFootprints:PTS636SM25SMTRLFS" H 1125 4075 50  0001 C CNN
+F 3 "~" H 1125 4075 50  0001 C CNN
+	1    1125 3875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1125 3675 1500 3675
 $EndSCHEMATC
