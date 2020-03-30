@@ -28,6 +28,7 @@
 ## Images
 <img src="Images/FrontIRL.jpg" width ="150">
 <img src="Images/BackIRL.jpg" width ="150">
+
 ## Designers
 
 * **Jorge Exinia** - *PCB design* - [j-exinia](https://github.com/j-exinia)
