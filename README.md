@@ -26,9 +26,8 @@
 
 
 ## Images
-![](Images/FrontIRL.jpg =250x250)
-![](Images/BackIRL.jpg =250x250)
-
+<img src="Images/FrontIRL.jpg" width ="150">
+<img src="Images/BackIRL.jpg" width ="150">
 ## Designers
 
 * **Jorge Exinia** - *PCB design* - [j-exinia](https://github.com/j-exinia)
