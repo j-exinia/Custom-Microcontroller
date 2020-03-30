@@ -26,8 +26,8 @@
 
 
 ## Images
-![](Images/FrontIRL.jpg)
-![](Images/BackIRL.jpg)
+![](Images/FrontIRL.jpg =250x250)
+![](Images/BackIRL.jpg =250x250)
 
 ## Designers
 
