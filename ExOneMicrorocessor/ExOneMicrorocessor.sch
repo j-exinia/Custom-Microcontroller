@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ExOneMicrorocessor-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -35,6 +34,7 @@ F 0 "IC2" H 4475 6400 50  0000 C CNN
 F 1 "FT230XS" H 5125 6400 50  0000 C CNN
 F 2 "ExOneFootprints:FT230XS" H 5025 6500 50  0001 L BNN
 F 3 "" H 4925 5950 50  0001 C CNN
+F 4 "C69082" H 4925 5950 50  0001 C CNN "LCSC"
 	1    4925 5950
 	1    0    0    -1  
 $EndComp
@@ -68,6 +68,7 @@ F 0 "C18" H 5050 1575 50  0000 L CNN
 F 1 "4.7 uF" H 5050 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4963 1375 50  0001 C CNN
 F 3 "~" H 4925 1525 50  0001 C CNN
+F 4 "C19666" H 4925 1525 50  0001 C CNN "LCSC"
 	1    4925 1525
 	-1   0    0    1   
 $EndComp
@@ -122,6 +123,7 @@ F 6 "511-STM32G041C8T6" H 9200 4325 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32G041C8T6" H 9200 4225 50  0001 L CNN "Mouser Price/Stock"
 F 8 "STMicroelectronics" H 9200 4125 50  0001 L CNN "Manufacturer_Name"
 F 9 "STM32G041C8T6" H 9200 4025 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C432202" H 6950 3625 50  0001 C CNN "LCSC"
 	1    6950 3625
 	1    0    0    -1  
 $EndComp
@@ -432,6 +434,7 @@ F 0 "C15" H 2250 3875 50  0000 L CNN
 F 1 "4.7 uF" H 2250 3800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2163 3675 50  0001 C CNN
 F 3 "~" H 2125 3825 50  0001 C CNN
+F 4 "C19666" H 2125 3825 50  0001 C CNN "LCSC"
 	1    2125 3825
 	-1   0    0    1   
 $EndComp
@@ -751,6 +754,7 @@ F 4 "-" H 3575 1375 50  0001 L BNN "Field4"
 F 5 "TPS77733DR" H 4775 1425 50  0001 L BNN "Field5"
 F 6 "SOIC-8" H 4825 1275 50  0001 L BNN "Field6"
 F 7 "Texas Instruments" H 4675 1525 50  0001 L BNN "Field7"
+F 8 "C202171" H 3575 1375 50  0001 C CNN "LCSC"
 	1    3575 1375
 	1    0    0    -1  
 $EndComp
@@ -897,6 +901,7 @@ F 0 "C14" H 6000 5800 50  0000 L CNN
 F 1 "4.7 uF" H 5900 5700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6288 5600 50  0001 C CNN
 F 3 "~" H 6250 5750 50  0001 C CNN
+F 4 "C19666" H 6250 5750 50  0001 C CNN "LCSC"
 	1    6250 5750
 	-1   0    0    1   
 $EndComp
@@ -974,6 +979,7 @@ F 0 "C1" H 8850 1125 50  0000 L CNN
 F 1 "4.7 uF" H 8850 1050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8763 925 50  0001 C CNN
 F 3 "~" H 8725 1075 50  0001 C CNN
+F 4 "C19666" H 8725 1075 50  0001 C CNN "LCSC"
 	1    8725 1075
 	-1   0    0    1   
 $EndComp
