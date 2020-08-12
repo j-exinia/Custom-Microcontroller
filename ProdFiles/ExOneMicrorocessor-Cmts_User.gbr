@@ -1,12 +1,11 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.4)-1*
-G04 #@! TF.CreationDate,2020-03-23T23:33:49-05:00*
+G04 #@! TF.CreationDate,2020-03-25T13:11:37-05:00*
 G04 #@! TF.ProjectId,ExOneMicrorocessor,45784f6e-654d-4696-9372-6f726f636573,rev?*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Glue,Bot*
-G04 #@! TF.FilePolarity,Positive*
+G04 #@! TF.FileFunction,Other,Comment*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2020-03-23 23:33:49*
+G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2020-03-25 13:11:37*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
